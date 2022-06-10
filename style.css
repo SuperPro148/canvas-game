@@ -1,0 +1,70 @@
+.input {
+	width: calc(80% - 16px);
+	height: 35px;
+	font-size: 24px;
+	font-weight: 900;
+	border-radius: 4px;
+	border: 2px solid #000000;
+	left: 4px;
+	top: 4px;
+	position: absolute;
+}
+
+.button {
+	width: calc(20% - 4px);
+	height: 40px;
+	font-size: 24px;
+	font-weight: 900;
+	border-radius: 4px;
+	border: 2px solid #000000;
+	left: 80%;
+	top: 4px;
+	position: absolute;
+}
+
+.app {
+	width: 30%;
+	height: 100%;
+	top: 0%;
+	position: fixed;
+	border-radius: 4px;
+	background-color: beige;
+}
+
+.chatbox {
+	width: 100%;
+	height: calc(100% - 48px);
+	bottom: 0%;
+	left: 0%;
+	position: absolute;
+	overflow-y: auto;
+}
+
+.msg {
+	height: 40px;
+	width: calc(100% - 8px);
+	margin: 4px 4px 0px 4px;
+}
+
+.msg-sent {
+	height: 40px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: solid 2px lightblue;
+	background-color: lightblue;
+	padding: 0px 12px 0px 12px;
+	float: right;
+}
+
+.msg-recieved {
+	height: 40px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: solid 2px yellow;
+	background-color: yellow;
+	padding: 0px 12px 0px 12px;
+	float: left;
+}
+
+#appLeft {left: 0%}
+#appRight {left: 40%}
