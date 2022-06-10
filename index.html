@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<script src="script.js"></script>
-<div class="app" id="appLeft">
-<div class="chatbox" id="chatLeft"></div>
-<input type="text" class="input" id="inputLeft"></input>
-<button class="button" onclick="sendMsg('left')">send</button>
-<div class="app" id="appRight">
-<div class="chatbox" id="chatRight"></div>
-<input type="text" class="input" id="inputRight"></input>
-<button class="button" onclick="sendMsg('right')">send</button>
-</div>
+<body onkeydown="control(event)">
+    <p id="score">score: 0</p>
+    <canvas id="canvas" width="800" height="400"></canvas>
+    <script src="script.js" loading="lazy"></script>
 </body>
